@@ -1,0 +1,111 @@
+﻿body {
+    background-color: #fff;
+}
+
+
+
+/*portrait view*/
+@media screen and (orientation: portrait) {
+
+    .gridArea {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: "head" "mainPic" "main" "foot";
+    }
+}
+
+/*landscape view*/
+@media screen and (orientation: landscape) {
+
+    .gridArea {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas: ". head head ." ". mainPic mainPic ." ". main main ." ". foot foot .";
+    }
+}
+
+.group {
+    display: flex;
+}
+
+.head {
+    text-align: center;
+    background-color: #35b3ed;
+    color: white;
+    width: 100%;
+    grid-area: head;
+    margin: 0;
+}
+
+.mainPic {
+    text-align: center;
+    background-image: url("./images/patient.png");
+    grid-area: mainPic;
+    background-size: 100% 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+.main {
+    background-color: #f8f8f8;
+    grid-area: main;
+    padding: 25px;
+}
+
+h1 {
+    margin: 0;
+}
+
+label {
+    float: right;
+    width: 20%;
+}
+
+input, select {
+    width: 45%;
+    float: left;
+}
+
+#lstItems {
+    margin-top: 7px;
+}
+
+select {
+    margin-right: 5px;
+    border-width: 2px;
+    padding: 1px 0px;
+    height: 22px;
+}
+
+input[type="submit"] {
+    border-width: 0px;
+    padding: 4px 2px;
+}
+
+form {
+    display: inline;
+}
+
+.head p, .foot p {
+    color: white;
+    font-size: 1.2em;
+    margin: 0;
+    padding-right: 25px;
+}
+
+.foot {
+    text-align: right;
+    background-color: #35b3ed;
+    grid-area: foot;
+}
+
+p {
+    align-items: center;
+    padding: 5px;
+}
+
+#logout {
+    width: 10%;
+    float: right;
+    margin-right: 10px;
+}
