@@ -1,6 +1,6 @@
-___________________________________________________________________________________________________________
->>THIS PROJECT IS UPLOADED ONLY FOR REFERNECE PURPOSES. PLEASE DO NOT MISUE OF ANY BREACH OF INTEGRITY
------------------------------------------------------------------------------------------------------------
+_____________________________________________________________________________________________________________________
+>>THIS PROJECT IS UPLOADED ONLY FOR REFERNECE PURPOSES. PLEASE DO NOT MISUE OR COMMIT AN INTEGRITY BREACH OF ANY KIND
+---------------------------------------------------------------------------------------------------------------------
 Project Name: MediApp.
 Authors: Yatharth Soni, Steve Markham and Ilya.
 Date Created: July-August 2019.
