@@ -2,7 +2,7 @@ ________________________________________________________________________________
 >>THIS PROJECT IS UPLOADED ONLY FOR REFERNECE PURPOSES. PLEASE DO NOT MISUE OR COMMIT AN INTEGRITY BREACH OF ANY KIND
 ---------------------------------------------------------------------------------------------------------------------
 Project Name: MediApp.
-Authors: Yatharth Soni, Steve Markham and Ilya.
+Author: Yatharth Soni.
 Date Created: July-August 2019.
 Description: A Web Application with user friendly-UI fulfilling the purpose of registering, managing and ultimately storing the patient data into the hospital database for future usage by providing ease of access to the Hospital Team.
 
